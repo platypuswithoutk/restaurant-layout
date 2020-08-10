@@ -1,0 +1,639 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container-wrapper {
+    width: 1600px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Yeseva One', cursive;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-menu {
+    display:flex;
+    flex-wrap:wrap;
+    margin-left: 179px;
+    margin-right: 170px;
+}
+
+.main-logo {
+    display:flex;
+    margin-right: 190px;
+    margin-top:16px;
+}
+
+.heading {
+    line-height: 7.4em;
+    margin-left: 250px;
+    margin-right: 250px;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: "Yeseva One";
+    font-size: 90px;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+}
+
+.menu-list ul {
+    padding-top: 18px;
+    padding-bottom: 50px;
+}
+
+.menu-list ul li {
+    display: inline;
+    margin: 10px;
+    font-family: "Gentium Book Basic";
+    font-size: 21px;
+    font-weight: 650;
+    margin-left: 10px;
+    margin-right: 37px;
+}
+
+.menu-list ul li:last-child {
+    margin-right:20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Yeseva One";
+}
+
+.menu-list ul li a {
+    text-decoration: none;
+    cursor: pointer; 
+    color: white;   
+    padding-top: 47px;
+}
+
+.menu-list ul li a:hover {
+    border-top: 6px solid rgba(205, 228, 5, 0.938);
+    color: rgb(102, 18, 18);
+}
+
+.menu-icons {
+    display:flex;
+    margin-top: 41px;
+}
+
+.menu-icons span{
+    font-size: 20px;
+    display:inline-block;
+    margin: -4px;
+    padding:10px;
+}
+
+.menu-icons .twitter:hover:before, .menu-icons .youtube:hover:before, .menu-icons .facebook:hover:before {
+    color: rgb(102, 18, 18);
+}
+
+.menu-icons .twitter::before {
+    font-family: "Font Awesome 5 Brands"; content: "\f099";
+    color: #dab33e;
+  }
+
+.menu-icons .youtube:before {
+    font-family: "Font Awesome 5 Brands"; content: "\f167";
+    color: #dab33e;
+  }
+
+.menu-icons .facebook:before {
+    font-family: "Font Awesome 5 Brands"; content: "\f39e";
+    color: #dab33e;
+  }
+
+.menu-icons a:nth-child(2) {
+    margin-right: 8px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 15px;
+}
+
+.figure {
+    text-align:center;
+    padding-bottom: 49px;
+}
+
+.btn {
+    text-align:center;
+    padding-bottom: 159px;
+}
+
+.btn a {
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid white;
+    opacity: 0.6;
+    padding: 18px 52px;
+    background: transparent;
+    cursor: pointer; 
+    color:white;
+    margin: 15px 16px 25px 15px;
+}
+
+.btn a:hover {
+    border: 1 px solid black;
+    background-color: rgb(134, 134, 134);
+}
+
+.container-food {
+    display:flex;
+    flex-wrap:wrap;
+    background-image: url(../img/pattern2-zrobionyporaz2.png);
+    background-repeat: repeat;
+    width: 100%;
+    justify-content: center;
+}
+
+.food-description {
+    flex-basis: 30%;
+    text-align:center;
+    margin-left: 200px;
+    padding-top: 64px;
+    overflow: hidden;
+}
+
+.food-description h3 {
+    color: #dab33e;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.food-description-text p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 7px 32px 0 30px;
+}
+
+.photo-dish {
+    flex-basis: 50%;
+    padding-top: 50px;
+    padding-bottom:26px;
+}
+
+.photo-dish img{
+   width: 78%;
+}
+
+.food-description-text img:last-of-type {
+    padding: 32px 0px 30px 70px;
+}
+
+.container-ingredients {
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ingredients-description {
+    margin: 100px 215px 100px 0px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.6;
+    width: 570px;
+    overflow: hidden;
+}
+
+.ingredients-description h3 {
+    padding-top: 42px;
+    margin-bottom: 15px;
+    color:white;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.ingredients-description p {
+    padding: 5px 70px 0 70px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.icons {
+    padding-top: 39px;
+    padding-bottom: 61px;
+}
+
+.icons img {
+    border-radius: 50%;
+    border: 1px solid rgba(205, 228, 5, 0.938);
+    width: 17%;
+    margin:20px;
+}
+
+.main-menu {
+    background-image: url(../img/pattern1-zrobionyporaz2.png);
+    background-repeat: repeat;
+}
+
+.container-menu {
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 37px;
+    padding-bottom: 85px;
+    margin-left: 94px;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+.menu-column {
+    flex-basis: 40%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.menu-column:last-child {
+    margin-left: 40px;
+}
+
+.menu h3 {
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 37px;
+    margin-bottom: 23px;
+}
+
+.position, .menu-position-special {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h5 {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 0;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+
+.position img{
+    float: right;
+    width: 100%;
+}
+
+.menu-position:first-of-type { 
+    padding-left: 68px;
+    padding-right: 63px;
+    padding-top: 22px;
+}
+
+.menu-position {
+    padding-top: 16px;
+    padding-left: 68px;
+    padding-right: 63px;
+}
+
+.menu-position-special {
+    margin-left: 56px;
+    margin-right: 50px;
+}
+
+.menu-position-special:after {
+    display: block;
+    position: absolute;
+    content: 'xd';
+    top: -20px;
+    right: 0; 
+    border: 1px dotted #cc9900;
+} 
+
+.menu-position-special {
+    border: 1px solid #cc9900;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-position p {
+    text-align: left;
+    font-family: "Lato";
+    margin-top: 12px;
+}
+
+.revievs {
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.guest-revievs {
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.6;
+    text-align: center;
+    margin:100px;
+    overflow: hidden;
+    width: 48%;
+}
+
+blockquote {
+    font-weight: 200;
+    line-height: 2;
+    position: relative;
+    margin: 15px 70px 35px 70px;;
+    font-size: 22px;
+    font-family: "Yeseva One";
+}
+
+blockquote:before{
+	position: absolute;
+    color:white;
+    width: 10rem;
+    font-size: 100px;
+    content: '“';
+    left: -6.5rem; 
+    top: -4rem;
+}
+
+.guest-revievs h3 {
+    color:white;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 79px;
+    margin-bottom: 17px;
+}
+
+.guest-revievs-text {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.guest-revievs-text p {
+    color: white;
+    padding-bottom: 73px;
+    font-family: "Lato";
+    font-size: 18px;
+}
+
+.reserwation {
+    background-image: url(../img/pattern2-zrobionyporaz2.png);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.reserwations-container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top:90px;
+    padding-bottom: 70px;
+}
+
+.photos, .reserwations-places {
+    flex-basis: 41%;
+}
+
+.reserwations-places {
+    text-align: center;
+    overflow: hidden;
+}
+
+.reservation-text h3{
+    margin-top:17px;
+    margin-bottom: 24px;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.reservation-text p {
+    line-height: 1.5;
+    padding-top: 7px;
+    margin-bottom: 0;
+}
+
+.reservation-text p:last-of-type {
+    padding-top: 0;
+    padding-right: 13px;
+    margin-top: 8px;
+    padding-bottom: 7px;
+}
+
+.reserwation-form {
+    margin-left: 48px;
+}
+
+.reservation-text {
+    padding-right: 147px;
+    padding-left: 92px;
+}
+
+.photos {
+    padding-left:80px;
+}
+
+.photos img {
+    width: 47%;
+}
+
+.photos img:last-of-type {
+    margin-left:14px;
+}
+
+form {
+    padding-top: 29px;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 32px;
+    margin-right: 90px;
+}
+
+label {
+    color: #cc9900;
+    padding: 0px;
+    margin-bottom: 6px;
+    display: inline-block;
+    margin: -4px;
+    padding:10px;
+}
+
+figure {
+    margin: 0;
+}
+
+.wrapper-form {
+    flex-basis: 45%;
+    margin: 4px;
+    padding-bottom: 15px;
+}
+
+.wrapper-form:nth-of-type(2) {
+    padding-left: 6px;
+}
+
+.wrapper-form:nth-of-type(4) {
+    padding-left: 6px;
+}
+
+input, select {
+   width:93%;
+   padding: 8px;
+   border: 1px solid lightgray;
+   font-size: 16px;
+   font-style: italic;
+}
+
+.dateofbirth {
+    width: 93%;
+    padding:6px;
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+
+.send {
+    background-color: #cc9900;
+    margin: 10px 30px 30px 121px;
+    width: 42%;
+    color: white;
+    font-style: normal;
+}
+
+footer {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    position:sticky;
+    bottom: -45px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin: 35px 276px 30px 237px;
+}
+
+h3 {
+    color: white;
+    font-family: "Yeseva One";
+    font-weight: 100;
+    font-size: 21px;
+    margin-bottom:16px;
+}
+
+.section-about {
+    flex-basis: 30%;
+    overflow: hidden;
+}
+
+.section-about i{
+    color:white;
+    margin: 5px;
+}
+
+.section-about p {
+    color: white;
+    font-family: "Lato";
+    line-height: 1.5em;   
+    font-size:16px;
+    padding-bottom: 9px;
+}
+
+.section-about img {
+    width:62%;
+}
+
+.section-about i {
+    padding-top: 20px;
+}
+
+.cards i {
+    font-size: 17px;
+    margin: 5px;
+}
+
+.section-about:nth-of-type(2) {
+    padding-left:38px;
+}
+
+.section-about:last-of-type {
+    padding-left: 79px;
+}
+
+ .icon {
+    margin:5px;
+    padding-top: 20px;
+    color: white;
+}
+
+.fontawesome-wrapper .twitter:hover:before, .fontawesome-wrapper .youtube:hover:before, .fontawesome-wrapper .facebook:hover:before, .icon .trelo:hover:before {
+    color: rgb(102, 18, 18);
+}
+
+.twitter:before, .youtube:before, .facebook:before, .trelo:before {
+    color:white;
+}
+
+.twitter::before {
+    font-family: "Font Awesome 5 Brands"; content: "\f099";
+}
+
+.youtube:before {
+    font-family: "Font Awesome 5 Brands"; content: "\f167";
+}
+
+.facebook:before {
+    font-family: "Font Awesome 5 Brands"; content: "\f39e";
+}
+
+.trelo::before {
+    font-family: "Font Awesome 5 Brands"; content: "\f181";
+}
+  
+.fontawesome-wrapper a {
+    text-decoration: none;
+}
+
+.fontawesome-wrapper {
+    padding: 24px;
+}
