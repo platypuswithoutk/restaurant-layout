@@ -17,25 +17,59 @@ header {
     background-image: url(../img/bg.png);
     background-size: cover;
     background-position: center;
+    max-width: 100%;
+    height: auto;
 }
 
-.header-menu {
+nav{
+    height: 80px;
+    width: 100%;
     display:flex;
-    flex-wrap:wrap;
-    margin-left: 179px;
-    margin-right: 170px;
+  }
+
+  nav ul{
+    margin-right: 20px;
+    margin-top: 52px;
+  }
+
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 10px;
+    font-family: "Gentium Book Basic";
+    font-size: 21px;
+    font-weight: 650;
+    margin-left: 10px;
+    margin-right: 37px;
 }
 
-.main-logo {
-    display:flex;
-    margin-right: 190px;
-    margin-top:16px;
-}
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-top: 92px;
+  }
+
+  a.active,a:hover{
+    border-top: 6px solid rgba(205, 228, 5, 0.938);
+    color: rgb(102, 18, 18);
+    padding-top: 90px;
+  }
+
+  #logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
 
 .heading {
     line-height: 7.4em;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
     overflow: hidden;
 }
 
@@ -69,11 +103,14 @@ h2 {
 }
 
 h1 {
+    margin-right: 50px;
     font-size: 36px;
     font-weight: 400;
+    float:left;
     text-transform: uppercase;
     color: white;
     font-family: "Yeseva One";
+    padding: 50px 100px;
 }
 
 .menu-list ul li a {
@@ -83,14 +120,23 @@ h1 {
     padding-top: 47px;
 }
 
-.menu-list ul li a:hover {
-    border-top: 6px solid rgba(205, 228, 5, 0.938);
-    color: rgb(102, 18, 18);
-}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check{
+    display: none;
+  }
 
 .menu-icons {
-    display:flex;
-    margin-top: 41px;
+    margin-top:82px;
 }
 
 .menu-icons span{
@@ -541,8 +587,6 @@ footer {
     background-position: center;
     display: flex;
     text-align: center;
-    position:sticky;
-    bottom: -45px;
 }
 
 .footer-wrapper {

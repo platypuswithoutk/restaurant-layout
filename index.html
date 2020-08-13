@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Restaurant Layout</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js">
@@ -15,30 +16,28 @@
 <body>
     <div class="main-container-wrapper">
         <header>
-            <div class="header-menu">
-                <div class="main-logo" id="home">
-                    <h1>Lambda</h1>
-                </div>
-                <nav class="nav-menu">
-                    <div class="menu-list">
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#igredients">Igredients</a></li>
-                            <li><a href="#menu">Menu</a></li>
-                            <li><a href="#reviews">Reviews</a></li>
-                            <li><a href="#reserwation">Reservations</a></li>
-                        </ul>
-                    </div>
-                </nav>
+            <nav>
+                <h1 class="logo">Lambda</h1>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul id="navbar-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#igredients">Igredients</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#reserwation">Reservations</a></li>
+                </ul>
 
                 <div class="menu-icons">
                     <a href="https://www.twitter.com"><span class="icon twitter"></span></a>
                     <a href="https://www.youtube.com"><span class="icon youtube"></span></a>
                     <a href="https://www.facebook.com"><span class="icon facebook"></span></a>
                 </div>
-            </div>
-            
+            </nav>
+
             <div class="heading">
                 <h2>the right ingredients for the right food</h2>
             </div>
@@ -51,7 +50,7 @@
                 <a>Book a table</a>
                 <a>See the menu</a>
             </div>
-     </header>
+        </header>
 
     <section class="container-food" id="about">
         <div class="food-description">
@@ -109,7 +108,7 @@
                                 <img src="img/line.png" alt="Smiley face">
                             </figure>
                         </div>
-                        <p>Refreshing traditional cucumber and garlic yoghurt dip. lorem</p>
+                        <p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
                     </div>
                     <div class="menu-position">
                         <div class="position">
@@ -349,5 +348,7 @@
     </footer>
 </div>
 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
