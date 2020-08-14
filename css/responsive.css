@@ -1,28 +1,9 @@
-@media (max-width: 1600px) {
+@media (max-width: 449px) {
 
   .main-container-wrapper {
-      width:100%;
-  }
-
-  header {
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-  }
+    width:100%;
 }
 
-@media (max-width: 952px){
-  label.logo{
-    font-size: 30px;
-    padding-left: 50px;
-  }
-  nav ul li a{
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 858px){
   .checkbtn{
     display: block;
   }
@@ -51,9 +32,6 @@
   #check:checked ~ ul{
     left: 0;
   }
-}
-
-@media (max-width: 380px) {
 
   nav {
       display: flex;
@@ -265,4 +243,119 @@
     padding:0;
   }
 }
+
+@media (min-width: 768px) {
+
+  h1 {
+    font-size: 50px;
+   margin-right: 97px;
+  }
+
+  nav ul {
+    margin-top: 74px;
+  }
+
+ nav ul li a {
+   font-size: 25px;
+ }
+
+  .menu-icons {
+    margin-top: 101px;
+  }
+
+  .heading {
+    margin: 140px 150px 30px 150px;
+  }
+
+  .figure img {
+    width: 22%;
+  }
+
+  .btn a {
+    font-size: 29px;
+  }
+
+  .food-description {
+    flex-basis: 36%;
+    padding-bottom: 20px;
+  }
+
+  .food-description-text p, .ingredients-description p, .reservation-text p {
+    font-size: 23px;
+    line-height: 34px;
+  }
+
+  figure img{
+    width: 61%;
+  }
+
+  .ingredients-description p {
+    padding: 4px 16px 0 29px;
+  }
+
+  .container-menu {
+    margin:0;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  .menu-position p, .menu-position-special p{
+    font-size: 20px;
+  }
+
+  .photos, .reserwations-places {
+    flex-basis: 50%;
+  }
+
+  .section-about p {
+    font-size: 16px;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1300px) {
+  .main-container-wrapper {
+    width: 100%;
+  }
+
+  h1 {
+    margin-right:0;
+    padding-right: 27px;
+    font-size: 48px;
+  }
+
+  nav ul li {
+    margin-right: 20px;
+  }
+
+  .food-description {
+    flex-basis: 30%;
+  }
+
+  .food-description-text p, .ingredients-description p, .reservation-text p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .menu-position p, .menu-position-special p, .section-about p  {
+    font-size: 13px;
+  }
+
+  .section-about p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+ h1 {
+   margin-right: 100px;
+ }
+  
+}
+
+
+
+
 
