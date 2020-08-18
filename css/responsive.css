@@ -244,6 +244,20 @@
   }
 }
 
+@media (min-width: 450px) {
+  nav ul li a {
+    font-size: 29px;
+  }
+
+  .figure img {
+    width: 22%;
+  }
+
+  .heading {
+    margin: 100px 150px 30px 150px;
+  }
+}
+
 @media (min-width: 768px) {
 
   h1 {

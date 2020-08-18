@@ -187,6 +187,7 @@ h1 {
 .btn a {
     font-size: 17px;
     font-weight: 400;
+    text-decoration: none;
     text-transform: uppercase;
     border: 1px solid white;
     opacity: 0.6;
