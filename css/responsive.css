@@ -258,7 +258,11 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1299px) {
+
+  .main-container-wrapper {
+    width:100%;
+  }
 
   h1 {
     font-size: 50px;
