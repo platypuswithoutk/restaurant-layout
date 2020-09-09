@@ -5,44 +5,8 @@
   }
 
   h1 {
-    margin-right:5px;
-    padding-right: 27px;
-    font-size: 48px;
-  }
-
-  nav ul {
-    margin-top: 72px;
-  }
-  .menu-icons {
-    margin-top: 102px;
-}
-  nav ul li {
-    margin-right: 20px;
-  }
-
-  .food-description {
-    flex-basis: 30%;
-  }
-
-  .food-description-text p, .ingredients-description p, .reservation-text p {
-    font-size: 16px;
-    line-height: 24px;
-  }
-
-  .menu-position p, .menu-position-special p, .section-about p  {
-    font-size: 13px;
-  }
-
-  .section-about p {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 768px) {
-
-  h1 {
     font-size: 50px;
-   margin-right: 7px;
+   margin-right: -36px;
   }
 
   nav ul {
@@ -50,15 +14,11 @@
   }
 
  nav ul li a {
-   font-size: 25px;
+   font-size: 23px;
  }
 
   .menu-icons {
     margin-top: 101px;
-  }
-
-  .heading {
-    margin: 140px 150px 30px 150px;
   }
 
   .figure img {
@@ -66,25 +26,25 @@
   }
 
   .btn a {
-    font-size: 29px;
+    font-size: 17px;
   }
 
   .food-description {
-    flex-basis: 36%;
+    flex-basis: 30%;
     padding-bottom: 20px;
   }
 
   .food-description-text p, .ingredients-description p, .reservation-text p {
-    font-size: 23px;
-    line-height: 34px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   figure img{
     width: 61%;
   }
 
-  .ingredients-description p {
-    padding: 4px 16px 0 29px;
+  .menu-position p, .menu-position-special p{
+    text-align: start;
   }
 
   .container-menu {
@@ -104,12 +64,205 @@
   }
 
   .section-about p {
-    font-size: 16px;
-    padding-bottom: 0;
+    font-size: 12px;
   }
 }
 
-@media (min-width: 450px) {
+  
+
+@media(max-width: 1024px) {
+  .main-container-wrapper {
+    width: 100%;
+  }
+
+  h1 {
+    margin-right: 0;
+    padding: 50px 20px 50px 50px;
+  }
+
+  h2 {
+    font-size: 59px;
+  }
+
+  nav ul li {
+    margin-right: 26px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+  }
+
+  .menu-icons span {
+    font-size: 18px;
+  }
+
+  .heading {
+    margin: 100px 150px 0px 150px;
+  }
+
+  .btn a {
+    font-size: 13px;
+  }
+
+  .food-description {
+    flex-basis: 40%;
+    margin-left: 94px;
+  }
+
+  .container-menu {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .menu-column {
+    flex-basis: 47%;
+  }
+
+  .guest-revievs {
+    width: 58%;
+  }
+
+  .reservation-text {
+    padding:0;
+  }
+
+  form {
+    margin: 0;
+  }
+
+  .photos {
+    padding-left: 0;
+  }
+
+  .footer-wrapper {
+    margin: 35px 80px 30px 80px;
+  }
+  .section-about p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 27px;
+  }
+
+  nav ul {
+    margin-top: 40px;
+  }
+
+  nav ul li {
+    margin-right: 17px;
+}
+
+  nav ul li a {
+    font-size: 15px;
+}
+
+  .menu-icons {
+    display:none;
+  }
+
+  .heading {
+    margin: 44px 66px 0px 60px;
+}
+
+  .figure img {
+    width: 35%;
+  }
+
+  .btn a, blockquote, .guest-revievs-text p {
+    font-size: 14px;
+}
+
+blockquote:before {
+  font-size: 74px;
+  top: -3rem;
+}
+
+  .food-description {
+    flex-basis: 50%;
+    padding-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .food-description h3 {
+    font-size: 30px;
+  }
+
+  .food-description-text p, .ingredients-description p {
+    font-size: 14px;
+    line-height: 27px;
+  }
+
+  .reservation-text p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .photo-dish img {
+    width: 92%;
+}
+
+.photo-dish {
+  flex-basis: 50%;
+  padding-top: 149px;
+}
+
+  figure img{
+    width: 61%;
+  }
+
+  .ingredients-description {
+    width:420px;
+    margin: 100px 183px 82px 0px;
+  }
+
+  .menu h3, .guest-revievs h3, .reservation-text h3 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  .menu-position p, .menu-position-special p{
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .menu-position, .menu-position:first-of-type {
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+
+  .menu-position-special {
+    margin: 0 24px;
+  }
+
+  .photos, .reserwations-places {
+    flex-basis: 46%;
+  }
+
+  .reserwation-form {
+    margin-left: 4px;
+  }
+
+  .section-about p {
+    font-size: 11px;
+  }
+
+  .footer-wrapper {
+    margin: 35px 30px 30px 30px;
+  }
+
+  .section-about:last-of-type {
+    padding: 0;
+  }
+}
+
+@media (max-width: 450px) {
   nav ul li a {
     font-size: 29px;
   }
