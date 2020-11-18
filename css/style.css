@@ -676,6 +676,7 @@ h3 {
   
 .fontawesome-wrapper a {
     text-decoration: none;
+    border-top: 0;
 }
 
 .fontawesome-wrapper {
